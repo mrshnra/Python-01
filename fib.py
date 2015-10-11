@@ -7,7 +7,7 @@ def fib_loop(n):
     fib = [1,1]
     
     for i in range(n-2):
-        x= fib[i]+fib[i-1]
+        x= fib[i+1]+fib[i]
         fib.append(x)
         
     return fib[n-1]
