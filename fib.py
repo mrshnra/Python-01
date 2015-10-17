@@ -31,4 +31,13 @@ def fib_recursion(n):
 print(fib_loop(8))
 print(fib_recursion(13))
 
-Hello World
+
+def fib_generator(n):
+    '''
+    Generator version of fibonacci.
+    '''
+
+print(fib_loop(8))
+print(fib_recursion(13))
+print([i for i in fib_generator(14)])
+
